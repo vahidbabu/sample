@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'josefin sans', sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+.logo{
+    color: black;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color:#3ad5e1;
+
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+.btn{
+    background-color: #ff4f4fdb;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 10px 25px;
+    border-radius: 3px;
+    transition: transform .4s;
+
+}
+nav ul li a:hover{
+    color: #3ad5e1;
+    transition: .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+    background-color: white;
+    color: #ff4f4fdb;
+    border: 1px solid #ff4f4fdb ;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h4{
+    color: coral;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+h1{
+    color: 3ad5e1;
+    font-size: 75px;
+    margin: 20px 0px 20px;
+
+}
+h3{
+    color: darkorchid;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h1 span{
+    color: mediumvioletred;
+}
+.newsletter form{
+    width: 380px;
+    max-width: 100%;
+    position:relative 
+}
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid pink;
+    outline: none;
+    border-radius: 30px;
+}
+.newsletter form input:last-child{
+    position:absolute;
+    display:inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    box-shadow: 0px opx 5px black, opx opx 15px gray;
+    top: 6px;
+    right: 6px;
+}
