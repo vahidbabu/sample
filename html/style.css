@@ -1,0 +1,44 @@
+.vahid{
+    color: blue;
+    text-align: center;
+}
+.siva{
+    color: brown;
+    text-align: right;
+} 
+.ravi{
+    color: black;
+    text-align: center;
+}
+.link{
+    color: red;
+    text-decoration: none;
+    background-color: aqua;
+}
+.srinu{
+    background-color: pink;
+    color: black;
+    height: 45px;
+    width: 80px;
+    border-radius: 25px;
+    border: 00px solid;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+button:hover{
+    background-color: palevioletred;
+    color: white;
+}
+h1:hover{
+    background-color: black;
+    color: white;
+}
+h1:hove{
+    background-color: black;
+    color: white;
+} 
+h1:hover{
+background-color: black;
+color: white;
+}
